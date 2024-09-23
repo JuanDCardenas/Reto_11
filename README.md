@@ -1,5 +1,5 @@
 # Reto_11
-### 1) Desarrolle un programa que permita realizar la suma/resta de matrices. El programa debe validar las condiciones necesarias para ejecutar la operación.
+>### 1) Desarrolle un programa que permita realizar la suma/resta de matrices. El programa debe validar las condiciones necesarias para ejecutar la operación.
 ```python
 def suma_de_matrices(matriz_1: list, matriz_2: list) -> list:
     if len(matriz_1) != len(matriz_2) or len(matriz_1[0]) != len(matriz_2[0]):
@@ -32,7 +32,7 @@ if __name__ == "__main__":
     for i in resultado_resta:
         print(i)
 ```
-### 2) Desarrolle un programa que permita realizar el producto de matrices. El programa debe validar las condiciones necesarias para ejecutar la operación.
+>### 2) Desarrolle un programa que permita realizar el producto de matrices. El programa debe validar las condiciones necesarias para ejecutar la operación.
 ```python
 def multiplicacion_matrices (matriz_1:list,matriz_2:list)->list:
     if len (matriz_1[0])==len(matriz_2):
@@ -59,7 +59,7 @@ if __name__ == "__main__":
     for i in range(len(resultado)):
         print(resultado[i])
 ```
-### 3) Desarrolle un programa que permita obtener la matriz transpuesta de una matriz ingresada. El programa debe validar las condiciones necesarias para ejecutar la operación.
+>### 3) Desarrolle un programa que permita obtener la matriz transpuesta de una matriz ingresada. El programa debe validar las condiciones necesarias para ejecutar la operación.
 ```python
 def matriz_transpuesta (matriz_1:list)->list:
     matriz_resultado=[[0]*len(matriz_1) for h in range(len (matriz_1[0])) ]
@@ -79,7 +79,7 @@ if __name__== "__main__":
        print (i)
        
 ```
-### 4) Desarrollar un programa que sume los elementos de una columna dada de una matriz.
+>### 4) Desarrollar un programa que sume los elementos de una columna dada de una matriz.
 ```python
 def suma_columna(matriz_1: list) -> list:
     suma = [0 for _ in range(len(matriz_1))]
@@ -98,7 +98,7 @@ if __name__ == "__main__":
     print(suma_total) 
 
 ```
-### 5) Desarrollar un programa que sume los elementos de una fila dada de una matriz.
+>### 5) Desarrollar un programa que sume los elementos de una fila dada de una matriz.
 ```python
 def suma_columna(matriz_1: list) -> list:
     suma = [0 for _ in range(len(matriz_1[0]))]
